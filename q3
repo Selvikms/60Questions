@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+
+int main() {
+	int i,n,m;
+	printf("\nEnter the number:");
+	scanf("%d",&n);
+	for(i=0;i<=n;i++)
+	{
+	m=n*i;
+	printf("%d*%d=%d",n,i,m);
+    printf("\n");
+	}
+	printf("\n");
+for(i=0;i<=n;i++)
+{
+    m=n-i;
+    	printf("%d-%d=%d",n,i,m);
+	printf("\n");
+    
+}
+
+	return 0;
+
+}
