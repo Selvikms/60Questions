@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+  char c;
+  for(c='M';c<='Z';c++)
+  printf("%c",c);
+  
+    return 0;
+    
+}
