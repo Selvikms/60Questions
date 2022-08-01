@@ -1,0 +1,21 @@
+
+int main() {
+    
+    int i,n,rev=0,num;
+    printf("Enter the number:");
+    scanf("%d",&num);
+    n=num;
+    while(n!=0)
+    {
+    i=n%10;
+    rev=rev*10+i;
+    n=n/10;
+    }
+    
+    printf("Reverse number is %d",rev);
+    printf("\nDifference of them %d ",num-rev);
+
+    
+
+    return 0;
+}
