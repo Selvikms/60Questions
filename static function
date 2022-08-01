@@ -1,0 +1,14 @@
+#include<stdio.h>
+void run();
+int main()
+{
+	run();
+	run();
+	run();
+}
+void run()
+{
+static int i = 7;
+printf("Output : %d\n",i);
+i++;
+}
