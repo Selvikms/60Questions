@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=10,b=11,c;
+    b=a<<2;
+    c=a>>2;
+    printf("\nOutput of Bitwise AND Operator is %d ",a&b);
+    printf("\nOutput of Bitwise OR Operator is %d ",a|b);
+    printf("\nOutput of Bitwise AND Operator is %d ",a^b);
+    printf("\nOutput of Bitwise AND Operator is %d ",~b);
+    printf("\nOutput of Left shift Operator is %d ",b);
+    printf("\nOutput of Right shift Operator is %d ",c);
+    
+    return 0;
+}
