@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	int n1,n2,num,rem=0,large=0;
+	printf("\nEnter the two numbers:");
+	scanf("%d%d",&n1,&n2);
+	num=n1+n2;
+printf("\nsum of numbers is %d",num);
+	while(num>0)
+	{
+	
+		rem=num%10;
+	if(rem>large)
+	{
+		large=rem;
+	}
+
+	num=num/10;
+
+	}
+	
+	printf("The largest digit is %d",large);
+
+	return 0;
+}
