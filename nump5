@@ -1,0 +1,26 @@
+#include<stdio.h>
+void main()
+{
+    int i,j,n;
+    int max=1;
+    printf("Enter the number:");
+    scanf("%d",&n);
+    
+    for(i=1;i<=n;i++)
+    {
+        for(j=i;j<=max;j++)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+        max=max+2;
+    }
+}
+
+
+Enter the number:5
+1
+23
+345
+4567
+56789
